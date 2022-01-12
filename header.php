@@ -9,6 +9,12 @@
         <a href = 'register.php' class= 'header-register'>
         <button data-bn-type = 'button' class='btn-register'> Register </button>
         </a>
+        <div class = "wrapper">
+            <div class ="search-input">
+                <input type="text" placeholder="Search for turfs">
+                <div class ="autocom-box"></div>
+            </div>
+        </div>
     </header>
 </body>
 </html>

@@ -1,9 +1,19 @@
 <?php 
 include "header.php"; 
 ?>
+<link rel="stylesheet" href="css/index-style.css">
 
-<html>
+<main>
+                <div class="main-middleblock">
+                    <div class="main-title-block">
+                        <!--<h1 class="main-title">Recommended Turfs</h1>-->
+                    </div>
+                        
+                </div>
+            </main>
 
-
+<?php
+include "footer.php";
+?>
 </html>
 

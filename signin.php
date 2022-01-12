@@ -14,7 +14,7 @@
             </header>
             <div class="wrapper">
             <div class="register-form">
-                <div data-bn-type="text" class = "register-title">Create a free account</div>
+                <div data-bn-type="text" class = "register-title">Get Started</div>
                 <div data-bn-type="text" class = "register-subtitle">Welcome to Turf it</div>
                 <form action="includes/signup.inc.php" method="post">
                 <div class="form">
@@ -33,28 +33,6 @@
                     </div>
                 </form>
                 
-                <?php //to display the error message when filling out forms
-
-                    if(isset($_GET["error"])){
-
-                        if($_GET["error"] == "emptyinput"){
-                            echo "<p>Fill in all fields!</p>";
-                        }
-
-                        else if($_GET["error"] == "emailexists"){
-                            echo "<p>Email is already registered!</p>";
-                        }
-                        else if($_GET["error"] == "stmtfailed"){
-                            echo "<p>Something went wrong, try again!</p>";
-                        }
-                        else if($_GET["error"] == "invalidemail"){
-                            echo "<p>Enter a valid email!</p>";
-                        }
-                        else if($_GET["error"] == "none"){
-                            echo "<p>Account created!</p>";
-                        }
-                    }
-                ?>
                 </div>
             </div>
            

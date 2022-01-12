@@ -6,7 +6,6 @@ include "header.php";
 <main>
                 <div class="main-middleblock">
                     <div class="main-title-block">
-                        <!--<h1 class="main-title">Recommended Turfs</h1>-->
                     </div>
                         
                 </div>

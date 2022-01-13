@@ -19,7 +19,7 @@ header{
     outline: none;
     align-items: center;}
 
-.header-dummystocks{
+.header-turfit{
     appearance: none;
     user-select: none;
     cursor: pointer;
@@ -37,6 +37,11 @@ header{
     background-color: black;
   
    
+}
+.forgot-pwd{
+    display: block;
+    margin: 10px auto;
+    font-size:11px;
 }
 .form{
    

@@ -9,7 +9,7 @@
     <body>
         <div class = "registerpage">
             <header class= "header">
-                <a href = "index.php" class = "header-dummystocks"> <b>TURF</b><b style="color: white;">IT</b></a>
+                <a href = "index.php" class = "header-turfit"> <b>TURF</b><b style="color: white;">IT</b></a>
             </header>
             <div class="wrapper">
             <div class="register-form">
@@ -29,6 +29,7 @@
                     <a href="" class="createacc-box">
                     <button class="btn-createaccount" data-bn-type="button" type ="sumbit" name="submit">Log In</button>
                     </a> 
+                    <a href="forgotpwd.php" class="forgot-pwd">Forgot Password?</a>
                     </div>
                 </form>
                 <?php //to display the error message when filling out forms

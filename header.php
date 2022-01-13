@@ -14,7 +14,7 @@
 			<i class="fa fa-search"></i>
 		</div>
 		<ol>
-        <li><a href="about.php">Select your location</a></li>
+        <li><a href="">Select your location</a></li>
         <li><a href="about.php">About</a></li>
 			<li><a><button id = "button" type = 'button'> Sign In </button></a></li>
 			<li><a href="help.php">Help</a></li>

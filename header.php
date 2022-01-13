@@ -24,15 +24,15 @@
 			<span class="fa fa-times" id="times"></span>
 		</label>
 	</nav>
-    
+
 	<!-- modal section-->
     <div class="bg-modal">
         <div class = "modal-content">
             <div class="close">+</div>
                 <div type="text" class = "register-title">Get Started</div>
                 <div type="text" class = "register-subtitle">Welcome to Turf it</div>
-            <form action="">
-                <input class="modal-input-email"type="text" placeholder="Email">
+            <form action="" id="modal-form">
+                <input class="modal-input-email" type="text" placeholder="Email">
                 <input class="modal-input-password"type="text" placeholder="Password">
                 <a href="login.inc.php" class="button" >Create account</a>
                 <a href="signin.php" class="signinhyperlink">Already have an account?</a>
@@ -43,11 +43,12 @@
 <script>
     document.getElementById("button").addEventListener("click",function(){
       document.querySelector(".bg-modal").style.display="flex";
+      document.getElementById("modal-form").reset();
     });
 
     document.querySelector(".close").addEventListener("click",function(){
         document.querySelector(".bg-modal").style.display="none";
-        window.location.reload();
+        
     });
 
 </script>

@@ -119,7 +119,7 @@ input[type="checkbox"]{
     position: relative;
     display: absolute;
     width: 350px;
-    height: 350px;
+    height: 400px;
     background-color: white;
     border-radius: 4px;
     text-align: center;
@@ -186,6 +186,11 @@ input[type="checkbox"]{
 }
 .button:hover{
     background-color: #98ff98;
+}
+.signinhyperlink{
+   font-size: 11px;
+   display: block;
+   margin: -20px auto;
 }
 .close{
     position: absolute;

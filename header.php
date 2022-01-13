@@ -24,6 +24,7 @@
 			<span class="fa fa-times" id="times"></span>
 		</label>
 	</nav>
+    
 	<!-- modal section-->
     <div class="bg-modal">
         <div class = "modal-content">
@@ -34,6 +35,7 @@
                 <input class="modal-input-email"type="text" placeholder="Email">
                 <input class="modal-input-password"type="text" placeholder="Password">
                 <a href="login.inc.php" class="button" >Create account</a>
+                <a href="signin.php" class="signinhyperlink">Already have an account?</a>
             </form>
         </div>
     </div>

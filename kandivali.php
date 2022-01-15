@@ -1,11 +1,12 @@
-<?php 
-include "header.php"; 
+<?php
+include "header.php";
 ?>
 <link rel="stylesheet" href="css/index-style.css">
 
 <main>
                 <div class="main-middleblock">
                     <div class="main-title-block">
+                        <h1>Kandivali</h1>
                     </div>
                         
                 </div>
@@ -14,12 +15,4 @@ include "header.php";
 <?php
 include "footer.php";
 ?>
-
-
-<script>
-    document.addEventListener("DOMContentLoaded", function(){
-     launchLocationModal();
-    });
-    </script>
 </html>
-

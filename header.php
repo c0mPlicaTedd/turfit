@@ -25,6 +25,20 @@
 		</label>
 	</nav>
 
+
+    <!-- local modal-->
+    <div class="locationbg-modal">
+        <div class = "locationmodal-content">
+                <div type="text" class = "locationmodal-title">Select your location</div>
+                <li><a href="kandivali.php">Kandivali</a></li>
+                <li><a href="kandivali.php">Borivali</a></li>
+                <li><a href="kandivali.php">Bandra</a></li>
+                <li><a href="kandivali.php">Kalyan</a></li>
+                <li><a href="ulhasnagar.php">Ulhasnagar</a></li>
+                <li><a href="mulund.php">Mulund</a></li>
+        </div>
+    </div>
+
 	<!-- modal section-->
     <div class="bg-modal">
         <div class = "modal-content">
@@ -40,7 +54,9 @@
         </div>
     </div>
 </body>
+
 <script>
+    
     document.getElementById("button").addEventListener("click",function(){
       document.querySelector(".bg-modal").style.display="flex";
       document.getElementById("modal-form").reset();
@@ -50,6 +66,15 @@
         document.querySelector(".bg-modal").style.display="none";
         
     });
-
+    document.getElementById("userlocation").addEventListener("click", function() {
+       document.querySelector(".locationbg-modal").style.display="flex";
+    });
+    function launchLocationModal(){
+        document.querySelector(".locationbg-modal").style.display="flex";
+    
+    };
+    
 </script>
+
+    
 </html>

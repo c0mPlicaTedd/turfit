@@ -6,7 +6,7 @@ include "header.php";
 <main>
                 <div class="main-middleblock">
                     <div class="main-title-block">
-                        <h1>Ulhasnagar</h1>
+                        <h1 style="color:red;">Ulhasnagar</h1>
                     </div>
                         
                 </div>

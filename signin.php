@@ -9,7 +9,7 @@
     <body>
         <div class = "registerpage">
             <header class= "header">
-                <a href ="javascript:history.back()" class = "header-dummystocks"> <b>TURF</b><b style="color: white;">IT</b></a>
+                <a href ="javascript:history.back()" class = "header-turfit"> <b>TURF</b><b style="color: white;">IT</b></a>
             </header>
             <div class="wrapper">
             <div class="register-form">

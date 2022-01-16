@@ -14,7 +14,7 @@
 			<i class="fa fa-search"></i>
 		</div>
 		<ol>
-        <li><a href="">Select your location</a></li>
+        <li><a id="userlocation">Change your location</a></li>
         <li><a href="about.php">About</a></li>
 			<li><a><button id = "button" type = 'button'> Sign In </button></a></li>
 			<li><a href="help.php">Help</a></li>
@@ -27,15 +27,15 @@
 
 
     <!-- local modal-->
-    <div class="locationbg-modal">
+    <div class = "locationbg-modal">
         <div class = "locationmodal-content">
-                <div type="text" class = "locationmodal-title">Select your location</div>
-                <li><a href="kandivali.php">Kandivali</a></li>
-                <li><a href="kandivali.php">Borivali</a></li>
-                <li><a href="kandivali.php">Bandra</a></li>
-                <li><a href="kandivali.php">Kalyan</a></li>
-                <li><a href="ulhasnagar.php">Ulhasnagar</a></li>
-                <li><a href="mulund.php">Mulund</a></li>
+                <div type="text" class = "locationmodal-title">Change your location</div>
+                <li><a class="locationlist" href="kandivali.php">Kandivali</a></li>
+                <li><a class="locationlist" href="borivali.php">Borivali</a></li>
+                <li><a class="locationlist" href="bandra.php">Bandra</a></li>
+                <li><a class="locationlist" href="kalyan.php">Kalyan</a></li>
+                <li><a class="locationlist" href="ulhasnagar.php">Ulhasnagar</a></li>
+                <li><a class="locationlist" href="mulund.php">Mulund</a></li>
         </div>
     </div>
 
